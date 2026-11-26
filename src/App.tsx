@@ -279,16 +279,7 @@ export default function App() {
       <Navbar
         activeTab={activeTab}
         setActiveTab={setActiveTab}
-        searchQuery={searchQuery}
-        setSearchQuery={setSearchQuery}
-        onOpenNewPrompt={() => {
-          setEditingPrompt(null);
-          setIsNewPromptModalOpen(true);
-        }}
-        onOpenSheetsModal={() => setIsSheetsModalOpen(true)}
         onOpenTourGuide={() => setIsTourModalOpen(true)}
-        totalPromptsCount={prompts.length}
-        totalCopiesCount={totalCopies}
         theme={theme}
         mode={mode}
         systemTheme={systemTheme}
