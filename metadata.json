@@ -1,0 +1,8 @@
+{
+  "name": "TaskScript",
+  "description": "Centralized prompt and SOP repository giving virtual assistants and project managers 1-click access to standardized AI workflows across every department.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
